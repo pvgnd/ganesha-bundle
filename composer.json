@@ -1,0 +1,35 @@
+{
+    "name": "pvgnd/ganesha-bundle",
+    "type": "symfony-bundle",
+    "description": "Provides a tight integration of Ganesha Circuit Breaker into the Symfony full-stack framework",
+    "keywords": [],
+    "homepage": "https://github.com/pvgnd/ganesha-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierrick VIGNAND",
+            "email": "pierrick.vignand@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "ackintosh/ganesha": "^1.2",
+        "symfony/http-kernel": "^5.2"
+    },
+    "require-dev": {
+
+    },
+    "conflict": {
+
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-4": { "Pvgnd\\GaneshaBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
